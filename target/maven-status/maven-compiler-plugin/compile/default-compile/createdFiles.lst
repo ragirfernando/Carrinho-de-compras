@@ -1,0 +1,16 @@
+Dao/ProdutoDao.class
+Controller/UsuariosController.class
+Entity/Venda.class
+Entity/Item_.class
+Entity/Item.class
+Controller/ProdutosController.class
+Util/JpaUtil.class
+Entity/Usuario_.class
+Dao/VendaDao.class
+Entity/Produto_.class
+Entity/Venda_.class
+Entity/Produto.class
+Controller/VendasController.class
+Entity/Usuario.class
+Dao/UsuarioDao.class
+Dao/ItemDao.class

@@ -1,0 +1,12 @@
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Util/JpaUtil.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Dao/ProdutoDao.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Entity/Usuario.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Dao/UsuarioDao.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Dao/ItemDao.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Controller/UsuariosController.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Entity/Produto.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Controller/ProdutosController.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Controller/VendasController.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Entity/Venda.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Dao/VendaDao.java
+/home/ragir/Documentos/Sistemas-Para-Internet/Programacao-Para-Web-II/Projeto_final/Carrinho_de_compras/src/main/java/Entity/Item.java
