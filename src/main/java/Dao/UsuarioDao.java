@@ -19,8 +19,8 @@ public class UsuarioDao {
         manager.getTransaction().commit();
     }
 
-    public Usuario buscarUsuario(int id) {
-        return manager.find(Usuario.class, id);
+    public Usuario buscarUsuario(String login) {
+        return manager.find(Usuario.class, login);
     }
 
     public List<Usuario> buscarUsuarios() {

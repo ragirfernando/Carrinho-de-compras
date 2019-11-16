@@ -12,16 +12,17 @@
         <title>Login usuario</title>
     </head>
     <body>
-        <form action="${linkTo[usuarioController].logarUsuario}" method="post">
+       <form action="${linkTo[UsuariosController].recuperarSenha}" method="post">
             <input type="hidden" name="usuario.id" value="${usuario.id}">
             
-            Nome 
+            Login: 
             <input type="text" name="usuario.login" value="${usuario.login}"><br><br>
             
-            Idade 
+            Nova senha:
             <input type="password" name="usuario.senha" value="${usuario.senha}"><br><br>
             
-            <input type="submit" value="Salvar">
+            <input type="submit" value="Nova Senha">
+            
         </form>
     </body>
 </html>

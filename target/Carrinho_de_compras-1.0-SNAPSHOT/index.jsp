@@ -4,7 +4,8 @@
     Author     : ragir
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>123456
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +14,21 @@
     </head>
     <body>
         <h1>Ragir Fernando</h1>
-         <a href="${linkTo[VendasController].formVenda}">Nova Venda</a>
+        <form action="${linkTo[UsuariosController].login}" method="post">
+            <input type="hidden" name="usuario.id" value="${usuario.id}">
+            
+            Login: 
+            <input type="text" name="usuario.login" value="${usuario.login}"><br><br>
+            
+            Senha 
+            <input type="password" name="usuario.senha" value="${usuario.senha}"><br><br>
+            
+            <input type="submit" value="Acessar">
+            <a href="${linkTo[UsuariosController].recuperarSenha}">Cadatrar</a>
+            <a href="${linkTo[UsuariosController].cadastrarUsuario}">Cadatrar</a>
+        </form>
+            
+        <a href="${linkTo[VendasController].formVenda}">Nova Venda</a>
         <a href="${linkTo[ProdutosController].formProduto}">Cadastrar produtos</a>
     </body>
 </html>

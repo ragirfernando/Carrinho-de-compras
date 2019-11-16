@@ -15,19 +15,32 @@ public class UsuariosController {
     UsuarioDao usuarioDao;
     
     @Inject
+    Usuario usuario;
+    
+    @Inject
     Validator validator;
     
-    public void formUsurio() {
-
+    @Inject
+    Result result;
+    
+    private void login() {
+        Usuario g = usuarioDao.buscarUsuario(usuario.getLogin());
+        System.out.println(g.getLogin());
     }
     
-    private void listarProduto() {
+    public void recuperarSenha() {
+        
     }
+    
+    private void listarUsuario() {
+    }
+    
+    
     
     @Post
-    public void salvarUsuario(Usuario usuario, Result result) {
+    public void cadastrarUsuario(Usuario usuario, Result result) {
         validator.validate(usuario);
-        validator.onErrorRedirectTo(this).formUsurio();
+        validator.onErrorRedirectTo(this).login();
         
         
         //add produto no BD
@@ -37,16 +50,16 @@ public class UsuariosController {
             usuarioDao.editarUsuario(usuario);
         }
         //redireciona para listar.jsp
-        result.redirectTo(this).listarProduto();
+        result.redirectTo(this).listarUsuario();
 
     }
 
-    public void editarUsuaio(int id, Result result) {
+   /*public void editarUsuaio(int id, Result result) {
         Usuario u = usuarioDao.buscarUsuario(id);
         //faz a inclusão do obj produto na página form.jsp
         result.include(u);
         //redireciona para form.jsp
         result.of(this).formUsurio();
-    }
+    }*/
     
 }

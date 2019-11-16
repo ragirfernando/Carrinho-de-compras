@@ -17,7 +17,7 @@
             <p style="color: red"  >${error.message}</p>
         </c:forEach>
             
-        <form action="${linkTo[usuarioController].cadastrarUsuario}" method="post">
+        <form action="${linkTo[UsuariosController].cadastrarUsuario}" method="post">
              Nome: 
              <input type="text" name="usuario.nome" value="${usuario.nome}"><br><br>
              
@@ -29,6 +29,8 @@
              
              Senha: 
              <input type="password" name="usuario.senha" value="${usuario.senha}"><br><br>
+             
+             <input type="submit" value="Salvar">
         </form>
     </body>
 </html>
