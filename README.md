@@ -2,8 +2,8 @@
 Implementação de um projeto Maven, de um carrinho de compras.
 
 # Tecnologias
-[Vraptor](https://www.vraptor.org/en/)
-[Java](https://docs.oracle.com/javase/7/docs/api/)
+[Vraptor](https://www.vraptor.org/en/),
+[Java](https://docs.oracle.com/javase/7/docs/api/),
 [Hibernate](https://hibernate.org/)
 
 # Descrição
@@ -15,7 +15,7 @@ Quando o usuário selecionar os produtos que ele quer comprar, ele finalizar a c
 [Projeto Maven](http://luizricardo.org/2014/06/instalando-configurando-e-usando-o-maven-para-gerenciar-suas-dependencias-e-seus-projetos-java/)
 
 # Autor:
-[Ragir Fernando A](https://www.linkedin.com/in/ragir-fernando-71b986176/)
+[Ragir Fernando Aparecido da Silva](https://www.linkedin.com/in/ragir-fernando-71b986176/)
 
 # Status:
 
